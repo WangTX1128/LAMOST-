@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8fdf6910-f980-4a45-a6b2-cdf62b55dec1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TuKj3yrDEwrf7Y1FMXVNSyMDJ1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LAMOST_Classifier/CNN.py" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="LAMOST" sdk-home="D:\Anaconda\envs\pytorch\python.exe">
+        <envs>
+          <env key="PATH" value="D:\Anaconda;D:\Anaconda\Library\mingw-w64\bin;D:\Anaconda\Library\usr\bin;D:\Anaconda\Library\bin;D:\Anaconda\Scripts;D:\Anaconda\bin;D:\Anaconda\condabin;D:\Xshell;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\libnvvp;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.4.0;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\Anaconda;D:\Anaconda\Library\mingw-w64\bin;D:\Anaconda\Library\usr\bin;D:\Anaconda\Library\bin;D:\Anaconda\Scripts;C:\Users\53546\AppData\Local\Microsoft\WindowsApps;D:\JetBrains\PyCharm 2019.2.2\bin;" />
+        </envs>
+        <option name="mySdkHome" value="D:\Anaconda\envs\pytorch\python.exe" />
+        <option name="myModuleName" value="LAMOST" />
+        <option name="myEnvs">
+          <map>
+            <entry key="PATH" value="D:\Anaconda;D:\Anaconda\Library\mingw-w64\bin;D:\Anaconda\Library\usr\bin;D:\Anaconda\Library\bin;D:\Anaconda\Scripts;D:\Anaconda\bin;D:\Anaconda\condabin;D:\Xshell;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\libnvvp;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.4.0;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\Anaconda;D:\Anaconda\Library\mingw-w64\bin;D:\Anaconda\Library\usr\bin;D:\Anaconda\Library\bin;D:\Anaconda\Scripts;C:\Users\53546\AppData\Local\Microsoft\WindowsApps;D:\JetBrains\PyCharm 2019.2.2\bin;" />
+          </map>
+        </option>
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.abc">
+    <configuration name="LSTM" type="PythonConfigurationType" factoryName="Python">
+      <module name="LAMOST" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Anaconda\envs\pytorch\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LSTM.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MODEL" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LAMOST" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MODEL.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="LAMOST" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="abc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LAMOST" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/abc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fit_read" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LAMOST" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../DataProcess" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../DataProcess/fit_read.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stack" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LAMOST" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in CNN.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="LAMOST" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/CNN.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.LSTM" />
+      <item itemvalue="Python.MODEL" />
+      <item itemvalue="Python.fit_read" />
+      <item itemvalue="Python.stack" />
+      <item itemvalue="Python.abc" />
+      <item itemvalue="Python tests.pytest in CNN.py" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.abc" />
+        <item itemvalue="Python.MODEL" />
+        <item itemvalue="Python tests.pytest in CNN.py" />
+        <item itemvalue="Python.stack" />
+        <item itemvalue="Python.fit_read" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8fdf6910-f980-4a45-a6b2-cdf62b55dec1" name="Default Changelist" comment="" />
+      <created>1574304671184</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574304671184</updated>
+      <workItem from="1574304672312" duration="1034000" />
+      <workItem from="1574305734176" duration="2645000" />
+      <workItem from="1574319482155" duration="15311000" />
+      <workItem from="1574383575253" duration="8232000" />
+      <workItem from="1574411525829" duration="3348000" />
+      <workItem from="1574482561737" duration="522000" />
+      <workItem from="1574483094538" duration="85836000" />
+      <workItem from="1574746623656" duration="9844000" />
+      <workItem from="1574760117718" duration="47211000" />
+      <workItem from="1574904354737" duration="16329000" />
+      <workItem from="1574991277039" duration="1852000" />
+      <workItem from="1574993146998" duration="60692000" />
+      <workItem from="1575167598096" duration="12017000" />
+      <workItem from="1575198262452" duration="5075000" />
+      <workItem from="1575210716079" duration="1824000" />
+      <workItem from="1575252091961" duration="29458000" />
+      <workItem from="1575339044764" duration="64021000" />
+      <workItem from="1575526927178" duration="6602000" />
+      <workItem from="1575539848780" duration="3746000" />
+      <workItem from="1575682093768" duration="3603000" />
+      <workItem from="1575697911173" duration="36000" />
+      <workItem from="1575777545802" duration="527000" />
+      <workItem from="1576052939020" duration="1697000" />
+      <workItem from="1576117835200" duration="12847000" />
+      <workItem from="1576154176009" duration="664000" />
+      <workItem from="1576204628971" duration="199000" />
+      <workItem from="1576217399381" duration="50000" />
+      <workItem from="1576473600385" duration="305000" />
+      <workItem from="1576473987534" duration="4956000" />
+      <workItem from="1576501734273" duration="124000" />
+      <workItem from="1576815935330" duration="4351000" />
+      <workItem from="1576991004505" duration="6309000" />
+      <workItem from="1577082020276" duration="13917000" />
+      <workItem from="1577112530296" duration="103000" />
+      <workItem from="1577155649830" duration="5623000" />
+      <workItem from="1577166413059" duration="21328000" />
+      <workItem from="1577243372855" duration="412000" />
+      <workItem from="1577243795836" duration="242000" />
+      <workItem from="1577244050094" duration="280000" />
+      <workItem from="1577244339183" duration="272000" />
+      <workItem from="1577327365788" duration="90000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="183" key="#Deployment" timestamp="1577190578670">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="183" key="#Deployment/0.0.1920.1050@0.0.1920.1050" timestamp="1577190578670" />
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1576838593876">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576838593876" />
+    <state x="672" y="358" key="EnvironmentVariablesDialog" timestamp="1577244289225">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="672" y="358" key="EnvironmentVariablesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1577244289225" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1577243423167">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1577243423167" />
+    <state width="1877" height="416" key="GridCell.Tab.0.bottom" timestamp="1577327455490">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="416" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1577327455490" />
+    <state width="1877" height="416" key="GridCell.Tab.0.center" timestamp="1577327455490">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="416" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1577327455490" />
+    <state width="1877" height="416" key="GridCell.Tab.0.left" timestamp="1577327455489">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="416" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1577327455489" />
+    <state width="1877" height="416" key="GridCell.Tab.0.right" timestamp="1577327455490">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="416" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1577327455490" />
+    <state width="1877" height="416" key="GridCell.Tab.1.bottom" timestamp="1577327455490">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="416" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1577327455490" />
+    <state width="1877" height="416" key="GridCell.Tab.1.center" timestamp="1577327455490">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="416" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1577327455490" />
+    <state width="1877" height="416" key="GridCell.Tab.1.left" timestamp="1577327455490">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="416" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1577327455490" />
+    <state width="1877" height="416" key="GridCell.Tab.1.right" timestamp="1577327455490">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="416" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1577327455490" />
+    <state x="461" y="167" key="SettingsEditor" timestamp="1577244306442">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1577244306442" />
+    <state x="640" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1577327367417">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="640" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1577327367417" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LAMOST$fit_read.coverage" NAME="fit_read Coverage Results" MODIFIED="1574495360534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LAMOST$LSTM.coverage" NAME="LSTM Coverage Results" MODIFIED="1574766009726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LAMOST$tem_plot.coverage" NAME="tem_plot Coverage Results" MODIFIED="1575448913578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LAMOST$pytest_in_LSTM_py.coverage" NAME="pytest in LSTM.py Coverage Results" MODIFIED="1574575087179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LAMOST$training_acceleration.coverage" NAME="training_acceleration Coverage Results" MODIFIED="1574762996935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LAMOST$function.coverage" NAME="function Coverage Results" MODIFIED="1575263719136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LAMOST$CSV_READ.coverage" NAME="CSV_READ Coverage Results" MODIFIED="1574490260971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LAMOST$test.coverage" NAME="test Coverage Results" MODIFIED="1574835718802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../LAMOST_Classifier" />
+    <SUITE FILE_PATH="coverage/LAMOST$BiLSTM.coverage" NAME="BiLSTM Coverage Results" MODIFIED="1575092822857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LAMOST$MODEL.coverage" NAME="MODEL Coverage Results" MODIFIED="1575256531600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LAMOST$pytest_in_CNN_py.coverage" NAME="pytest in CNN.py Coverage Results" MODIFIED="1577243823085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LAMOST$abc.coverage" NAME="abc Coverage Results" MODIFIED="1577327391790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
