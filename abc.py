@@ -5,7 +5,10 @@ from function import *
 import MODEL
 from torchvision import transforms, models, datasets
 
-a = np.array([[1,2,3],[4,5,6]],dtype=np.float)
+a = np.array([1,2,3],dtype=np.float)
 b = np.array([5,5,5],dtype=np.float)
-c = [1,2,3]
-print(np.square(a))
+print(a)
+print(b)
+c = [a,b]
+
+np.concatenate(c,axis=0)
