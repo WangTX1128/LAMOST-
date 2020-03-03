@@ -58,7 +58,7 @@ def load_data_GPU(task):
     tlabel = data_frame[:,0]#带光谱次型
     #teff = data_frame[:,1]#温度
     #type = data_frame[:,2]#光谱型
-    data = data_frame[:,3:]
+    data = data_frame[:,1:]#使用了新数据集
     data_set = TensorDataset(torch.from_numpy(data,), torch.from_numpy(tlabel))
     time2 = time()
     print(time2 - time1)
