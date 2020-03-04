@@ -153,13 +153,18 @@ def error_name(p, data_name, correct):
     f.close()
 
 def MAE(epoch, pred, label, plt_flag=False, data_name=None):
+    error = torch.sub(pred, label)
+    np.savetxt('error.txt',error.cpu().detach(),delimiter=',')
     abs_error = abs(torch.sub(pred, label))
-    print(abs_error.shape)
     max_error = abs_error.max(1)[0]
     MAE_error = (abs_error.sum() - max_error) / (abs_error.shape[1] - 1)
-    '''
+   ''' 
     all_in = 0
     all_out = 0
+    O_in = 0
+    O_out = 0
+    B_in = 0
+    B_out = 0
     A_in = 0
     A_out = 0
     F_in = 0
@@ -168,38 +173,58 @@ def MAE(epoch, pred, label, plt_flag=False, data_name=None):
     G_out = 0
     K_in = 0
     K_out = 0
+    M_in = 0
+    M_out = 0
     for i in range(abs_error.shape[1]):
-        if abs_error[0][i] > 0.2:
+        if abs_error[0][i] > 0.02:
             if  0.0 <=label[0][i] < 1.0:
+                O_out += 1
+                all_out +=1
+            if  1.0 <=label[0][i] < 2.0:
+                B_out += 1
+                all_out +=1
+            if  2.0 <=label[0][i] < 3.0:
                 A_out += 1
                 all_out +=1
-            if  1.0 <=label[0][i] < 2.0:
+            if  3.0 <=label[0][i] < 4.0:
                 F_out += 1
                 all_out +=1
-            if  2.0 <=label[0][i] < 3.0:
+            if  4.0 <=label[0][i] < 5.0:
                 G_out += 1
                 all_out +=1
-            if  3.0 <=label[0][i] < 4.0:
+            if  5.0 <=label[0][i] < 6.0:
                 K_out += 1
                 all_out +=1
-        if abs_error[0][i] <= 0.2:
+            if  6.0 <=label[0][i] < 7.0:
+                M_out += 1
+                all_out +=1
+        if abs_error[0][i] <= 0.02:
             if  0.0 <=label[0][i] < 1.0:
-                A_in += 1
+                O_in += 1
                 all_in +=1
             if  1.0 <=label[0][i] < 2.0:
-                F_in += 1
+                B_in += 1
                 all_in +=1
             if  2.0 <=label[0][i] < 3.0:
-                G_in += 1
+                A_in += 1
                 all_in +=1
             if  3.0 <=label[0][i] < 4.0:
+                F_in += 1
+                all_in +=1
+             if  4.0 <=label[0][i] < 5.0:
+                G_in += 1
+                all_in +=1
+             if  5.0 <=label[0][i] < 6.0:
                 K_in += 1
                 all_in +=1
+             if  6.0 <=label[0][i] < 7.0:
+                M_in += 1
+                all_in +=1
     with open('error_num.txt','a') as f:
-        f.write('all_in:%d\nall_out:%d\nA_in:%d\nA_out:%d\nF_in:%d\nF_out:%d\nG_in:%d\nG_out:%d\nK_in:%d\nK_out:%d\n'%(all_in,all_out,A_in,A_out,F_in,F_out,G_in,G_out,K_in,K_out))
+        f.write('all_in:%d\tall_out:%d\nO_in:%d\tO_out:%d\nB_in:%d\tB_out:%d\nA_in:%d\tA_out:%d\nF_in:%d\tF_out:%d\nG_in:%d\tG_out:%d\nK_in:%d\tK_out\nM_in:%d\tM_out:%d'%(all_in,all_out,O_in,O_out,B_in,B_out,A_in,A_out,F_in,F_out,G_in,G_out,K_in,K_out,M_in,M_out))
 '''
     if plt_flag:
-        sns.distplot(abs_error.cpu().detach().numpy(), bins=40, hist=True, norm_hist=False, rug=True, vertical=False, axlabel='Error', kde=False)
+        sns.distplot(error.cpu().detach().numpy(), bins=40, hist=True, norm_hist=False, rug=True, vertical=False, axlabel='Error', kde=True)
         plt.ylabel('Total Number')
         plt.title('Error Distribution')
         plt.tight_layout()
@@ -214,7 +239,7 @@ def error_name_MAE(epoch, data_name, pred, label, abs_error):
     with open('error_name.txt', 'a') as f:
         f.write('\n'+'############第%d次写入###########'%epoch)
         for i in range(val.shape[1]):
-            if val[0][i] >= 0.5:
+            if val[0][i] >= 0.02:
                f.write('\n'+ str(data_name[0][indices[0][i]].item()))
                f.write('\tlabel:%.2f\tpred:%.2f\t'%(label[0][indices[0][i]],pred[0][indices[0][i]]))
     f.close()

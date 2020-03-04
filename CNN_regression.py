@@ -114,16 +114,16 @@ def test_net(epoch, model, test_loader, test=False):
 
 
 if __name__ == '__main__':
-    learning_rate = 0.003
+    learning_rate = 0.0003
     epoch = 2000
     torch.backends.cudnn.benchmark = True
     Frozen_Layers = False
-    #train_set = load_data_GPU('train')
-    #valid_set = load_data_GPU('valid')
+    train_set = load_data_GPU('train')
+    valid_set = load_data_GPU('valid')
 
     valid_MAE_error_list = []
-    #train_loader = torch.utils.data.DataLoader(train_set, batch_size=128, shuffle=True, num_workers=0, pin_memory=True)
-    #valid_loader = torch.utils.data.DataLoader(valid_set, batch_size=128, shuffle=True, num_workers=0, pin_memory=True)
+    train_loader = torch.utils.data.DataLoader(train_set, batch_size=64, shuffle=True, num_workers=0, pin_memory=True)
+    valid_loader = torch.utils.data.DataLoader(valid_set, batch_size=64, shuffle=True, num_workers=0, pin_memory=True)
 
     #model = ResNet_18()
     #model = ResNet_TO_LSTM()
@@ -159,7 +159,7 @@ if __name__ == '__main__':
     model.load_state_dict(torch.load('deep_cnn_regression_cosh.pkl'),strict=False)
     
     mae_err = 9999
-    '''
+    
     for i in range(1, epoch+1):
 
         train_net(i, model, train_loader, criterion, optimizer)
@@ -168,8 +168,8 @@ if __name__ == '__main__':
         if valid_MAE_error_list[-1] < mae_err:
             mae_err = valid_MAE_error_list[-1]
             torch.save(model.state_dict(), 'deep_cnn_regression_cosh.pkl')  # save only the parameters
-'''
+
     model.load_state_dict(torch.load('deep_cnn_regression_cosh.pkl'))
     test_set = load_data_GPU('test')
-    test_loader = torch.utils.data.DataLoader(test_set, batch_size=128, shuffle=True, num_workers=0, pin_memory=True)
+    test_loader = torch.utils.data.DataLoader(test_set, batch_size=64, shuffle=True, num_workers=0, pin_memory=True)
     test_net(1, model,test_loader, test=True)

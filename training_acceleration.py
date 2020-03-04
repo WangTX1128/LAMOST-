@@ -15,28 +15,30 @@ from tqdm import tqdm
 '''
 
 def lodding_map_train(idx):
-    path = '/root/train_data/'
+    #path = '/root/train_data/'
+    path = r'D:\PycharmProjects\DataProcess\type_id_7类数据集\train_data/'
     data = np.loadtxt(path+str(idx),delimiter=',', skiprows=0).astype('float16')
     return data
 
 def lodding_map_valid(idx):
-    path = '/root/valid_data/'
+    #path = '/root/valid_data/'
+    path = r'D:\PycharmProjects\DataProcess\type_id_7类数据集\valid_data/'
     data = np.loadtxt(path+str(idx),delimiter=',', skiprows=0).astype('float16')
     obsid = idx.split('.')[0]
     data = np.append(data, int(obsid), axis=None)
     return data
 
 def lodding_map_test(idx):
-    path = '/root/test_data/'
-    #path = 'D:\PycharmProjects\DataProcess/4类数据集/regression/test_data/'
+    #path = '/root/test_data/'
+    path = r'D:\PycharmProjects\DataProcess\type_id_7类数据集\test_data/'
     data = np.loadtxt(path+str(idx),delimiter=',', skiprows=0).astype('float16')
     obsid = idx.split('.')[0]
     data = np.append(data, int(obsid), axis=None)
     return data
 
 def load_data_GPU(task):
-    path = '/root/%s_data/'%task
-    #path = 'D:\PycharmProjects\DataProcess/4类数据集/regression/test_data/'
+    #path = '/root/%s_data/'%task
+    path = 'D:\PycharmProjects\DataProcess/type_id_7类数据集/%s_data/'%task
     data_list = []
     time1 = time()
     print('Loading data...................')
